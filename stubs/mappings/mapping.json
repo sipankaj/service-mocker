@@ -3,11 +3,11 @@
     "method": "GET",
     "url": "/health"
   },
-  "response": {
+"response": {
     "status": 200,
-    "body": "Hello world!",
     "headers": {
-      "Content-Type": "text/plain"
-    }
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "success.json"
   }
 }
